@@ -3,7 +3,7 @@
 Proyecto para practicar con el framework de spring boot, consta de:
 
 - Una consulta a la API de rick y morty, para obtener un capítulo.
-- Un ejemplo simple de webhook
+- Un ejemplo simple de WebSockets
 
 Para el desarrollo se aplicó un patrón de arquitectura hexagonal y pruebas con JUnit con Mockito.
 
