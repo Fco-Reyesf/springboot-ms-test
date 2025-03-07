@@ -20,8 +20,7 @@ private EpisodeService episodeService;
 
 Se configura el mock para devolver un objeto `Episode` específico cuando se llame al método `getEpisodeById`.
 
-`
-
+```
 @Test
 public void testGetEpisodeById() {
     // Configura el mock
@@ -36,8 +35,7 @@ public void testGetEpisodeById() {
 
     when(episodeApiClient.getEpisodeById(28)).thenReturn(expectedEpisode);
 }
-
-`
+```
 
 ### Flujo:
 
