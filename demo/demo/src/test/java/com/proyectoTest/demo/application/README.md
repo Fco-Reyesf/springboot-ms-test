@@ -8,13 +8,13 @@ Se crea un mock de `EpisodeApiClient` usando la anotación `@Mock`.
 
 Se inyecta el mock en `EpisodeService` usando la anotación `@InjectMocks`.
 
-`
+```
 @Mock
 private EpisodeApiClient episodeApiClient;
 
 @InjectMocks
 private EpisodeService episodeService;
-`
+```
 
 2. Simulación del Comportamiento
 
@@ -47,7 +47,7 @@ public void testGetEpisodeById() {
 
 Se llama al método `getEpisodeById` del `EpisodeService`.
 
-`Episode actualEpisode = episodeService.getEpisodeById(28);`
+```Episode actualEpisode = episodeService.getEpisodeById(28);```
 
 ### Flujo:
 
@@ -59,7 +59,7 @@ Se llama al método `getEpisodeById` del `EpisodeService`.
 
 Se verifica que el objeto devuelto por el servicio sea igual al objeto esperado.
 
-`assertEquals(expectedEpisode, actualEpisode);`
+```assertEquals(expectedEpisode, actualEpisode);```
 
 ### Flujo:
 
